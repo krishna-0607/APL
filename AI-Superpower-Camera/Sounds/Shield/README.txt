@@ -1,0 +1,1 @@
+Shield sound placeholders.
