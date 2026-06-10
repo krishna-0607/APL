@@ -1,0 +1,20 @@
+# Python
+PythonVision/.venv/
+PythonVision/__pycache__/
+PythonVision/**/*.pyc
+
+# Unity generated
+UnityClient/Library/
+UnityClient/Temp/
+UnityClient/Obj/
+UnityClient/Logs/
+UnityClient/UserSettings/
+
+# Runtime artifacts
+Videos/*.mp4
+Videos/*.mov
+Database/*.db
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+opencv-python>=4.10.0.0
+mediapipe>=0.10.14
+numpy>=1.26.0
+websockets>=12.0
+tflite-runtime>=2.14.0; platform_system != "Windows"
+tensorflow>=2.16.0; platform_system == "Windows"
+onnxruntime>=1.18.0
+PyYAML>=6.0.1

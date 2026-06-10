@@ -1,0 +1,5 @@
+$ErrorActionPreference = "Stop"
+Write-Host "Building AI Superpower Camera for Windows"
+Write-Host "1. Open Unity 6 project at UnityClient"
+Write-Host "2. Build target: StandaloneWindows64"
+Write-Host "3. Output to Deployment/Builds/Windows"

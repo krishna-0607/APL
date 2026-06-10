@@ -1,0 +1,29 @@
+app:
+  websocket_host: 0.0.0.0
+  websocket_port: 8765
+  target_fps: 30
+  camera_index: 0
+  max_latency_ms: 100
+  sqlite_path: ../Database/powers.db
+  video_output_dir: ../Videos
+vision:
+  enable_face_tracking: true
+  enable_pose_tracking: true
+  enable_hand_tracking: true
+  min_detection_confidence: 0.5
+  min_tracking_confidence: 0.5
+ml:
+  classifier_mode: hybrid
+  tflite_model_path: ../Models/tflite/gesture_classifier.tflite
+  onnx_model_path: ../Models/onnx/gesture_classifier.onnx
+power:
+  fireball_cooldown_s: 1.5
+  lightning_cooldown_s: 0.75
+  shield_cooldown_s: 2.0
+  energy_blast_cooldown_s: 3.0
+  teleport_cooldown_s: 4.0
+  shockwave_cooldown_s: 2.5
+recording:
+  ffmpeg_path: ffmpeg
+  output_fps: 30
+  output_resolution: 1280x720
